@@ -1,0 +1,15 @@
+t1=(1,2,3,4)
+print(t1)
+t2=(1,"abs",True,4.0)
+print(t2)
+t3=tuple((10,20,30,))
+print(t3)
+t4=tuple((t1,t2))
+print(t4)
+li=[10,20,30,40]
+t5=li
+print(t5)
+t5=tuple(li)
+print(t5)
+li=list(t4)
+print(li)
